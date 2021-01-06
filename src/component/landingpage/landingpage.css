@@ -1,0 +1,38 @@
+
+.landingpage{
+    height: 100vh;
+}
+.wrapper{
+    display: flex;
+    width: 100%;
+    margin-top: 6em;
+}
+.intro-text{
+    flex: 0.5;
+    margin-top: 4em;
+    width: 70%;
+    margin-left: 70px;
+}
+.intro-text > p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.8;
+}
+.intro-text h1, .intro-text p{
+    width: 90%;
+}
+.hero-image{
+    flex: 0.5;
+}
+img{
+    width: 90%;
+}
+.get-started-btn{
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #458ff6;
+    color: #ffffff;
+    margin-top: 1em;
+}

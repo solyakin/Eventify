@@ -1,0 +1,35 @@
+.users{
+    text-align: center;
+}
+.user-container{
+    width: 85%;
+    background-color: #d9e7fa;
+    border-radius: 25px;
+    margin: 0px auto;
+}
+.user-container h1{
+    font-size: 25px;
+    /* margin-top: 38px; */
+}
+.user-container p{
+    font-size: 18px;
+    color: grey;
+
+}
+.inner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 40px auto 0px;
+}
+.inner-container h1{
+    font-size: 18px;
+}
+.user-container img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
