@@ -1,71 +1,58 @@
 import React from 'react';
+import '../upcomingevent/upcomingevent.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwipperCore from 'swiper';
+import SwiperCore, {Autoplay} from 'swiper';
 import 'swiper/swiper-bundle.css';
 import allFiles from '../assets/files.json';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCalendar, faFile } from '@fortawesome/free-solid-svg-icons'
+SwiperCore.use([Autoplay]);
 
 const UpcomingEvent = () =>{
     const files = allFiles; 
     
     return(
         <div className="upcoming-event">
-            <img src="" alt=""/>
-            <h1>Upcoming Events</h1>
+            
+            <h2>
+                <FontAwesomeIcon icon={faCalendar}/>
+                Upcoming Events
+            </h2>
             
             <Swiper
-                spaceBetween={50}
+                spaceBetween={10}
                 slidesPerView={2}
-                onSlideChange={() => console.log('slide change')}
-                onSwiper={(swiper) => console.log(swiper)}
+                // centeredSlides={true}
+                autoplay={{
+                    delay: 3000,
+                    disableOnInteraction: false
+                }}
                 >
                 {
                 files.map( file => {
                     return <SwiperSlide key={file.id}>
-                    <img src={file.image} alt={file.name}/>
+                        <div className="event-wrapper">
+                            <img src={file.image} alt={file.name}/>
+                            <div className="event-details">
+                                <p>{file.description}</p>
+                                <span>{file.price}</span>
+                            </div>
+                    
+                            <p>
+                            <FontAwesomeIcon icon={faFile} />
+                            {file.category}
+                            </p>
+                        </div>
+                    
                     </SwiperSlide>
                 })
                 }
                 
             </Swiper>
             
+            <a href="!#" className="view-all-link">View all events</a>
         </div>
     )
 }
 
 export default UpcomingEvent;
-
-{/* <div className="event-one">
-                <img src="" alt=""/>
-                <div className="details">
-                    <h3></h3>
-                    <p></p>
-                </div>
-            </div>
-            <div className="event-one">
-                <img src="" alt=""/>
-                <div className="details">
-                    <h3></h3>
-                    <p></p>
-                </div>
-            </div>
-            <div className="event-one">
-                <img src="" alt=""/>
-                <div className="details">
-                    <h3></h3>
-                    <p></p>
-                </div>
-            </div>
-            <div className="event-one">
-                <img src="" alt=""/>
-                <div className="details">
-                    <h3></h3>
-                    <p></p>
-                </div>
-            </div>
-            <div className="event-one">
-                <img src="" alt=""/>
-                <div className="details">
-                    <h3></h3>
-                    <p></p>
-                </div>
-            </div> */}

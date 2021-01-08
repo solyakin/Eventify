@@ -1,0 +1,29 @@
+.footer{
+    height: 60vh;
+    background-color:  #d9e7fa;
+    text-align: center;
+    padding-top: 20px;
+}
+.footer-text{
+    width: 50%;
+    margin: 50px auto;
+    
+}
+.footer-text h3{
+    color:  #458ff6;;
+}
+.footer-text p{
+    font-size: 16px; 
+    color: gray;  
+}
+.icons img{
+    width: 55px;
+    background-color:  white;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    transition: 0.3s;
+}
+.icons img:hover{
+    transform: translateY(5px)
+}

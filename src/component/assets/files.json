@@ -1,51 +1,60 @@
 [
     {
       "id": 0,
-      "name": "My Github repository",
+      "name": "MaMa Awards",
       "image": "https://res.cloudinary.com/dfauupezh/image/upload/v1609948389/tony-pham-WVPI710bifM-unsplash_rfodj8.jpg",
-      "description": "Built a replica of my github repository using the official github graphql api",
-      "link": "https://soak-dev.netlify.app/"
+      "description": "MaMa Music Awards",
+      "price": "$30",
+      "category": "music"
     },
     {
         "id": 1,
-        "name": "Photo Splash",
+        "name": "React Conference",
         "image": "https://res.cloudinary.com/dfauupezh/image/upload/v1609947758/teemu-paananen-bzdhc5b3Bxs-unsplash_bymcxr.jpg",
-        "description": "An image search app with a search functionality",
-        "link": "https://photosplash.netlify.app/"
+        "description": "React Conference",
+        "price": "$30",
+        "category": "conference"
     },
     {
         "id": 2,
-        "name": "26andFour",
+        "name": "kensa Music Festival",
         "image": "https://res.cloudinary.com/dfauupezh/image/upload/v1609948077/hanny-naibaho-aWXVxy8BSzc-unsplash_myaasd.jpg",
-        "description": "Landing page of 26andFour, a web hosting service",
-        "link": "https://serverless-hp.netlify.app/"
+        "description": "kensa Music Festival",
+        "price": "$30",
+        "category": "music"
     },
     {
         "id": 3,
-        "name": "Discovery World",
+        "name": "SheCode cloud Enginering Webinar",
         "image": "https://res.cloudinary.com/dfauupezh/image/upload/v1609948022/windows-_DFBsvESvQ8-unsplash_bep0b3.jpg",
-        "description": "Landing page of discovery world website",
-        "link": "https://soak-dev.netlify.app/"
+        "description": "SheCode cloud Enginering Webinar",
+        "price": "$30",
+        "category": "webinar"
     },
     {
         "id": 4,
         "name": "Covid-Tracker",
         "image": "https://res.cloudinary.com/dfauupezh/image/upload/v1609948278/hanna-tche-WT_IOIFSZfE-unsplash_fscm3l.jpg",
-        "description": "A web app that gives you daily update of covid-19 cases for each countries. Built using reactJs and a covid-19 API",
+        "description": "SheCode cloud Enginering Webinar",
+        "price": "$30",
+        "category": "music",
         "link": "https://covid-teller.netlify.app/"
     },
     {
         "id": 5,
-        "name": "Room Homepage",
+        "name": "Age old boys Hangout",
         "image": "https://res.cloudinary.com/dfauupezh/image/upload/v1609947712/louis-hansel-shotsoflouis-N_R0X4H9uD4-unsplash_myyc8j.jpg",
-        "description": "Frontend mentor room homepage challenge",
-        "link": "https://room-homepage-dc.netlify.app/"
+        "description": "Age old boys Hangout",
+        "price": "$30",
+        "category": "social gathering"
     },
     {
         "id": 6,
         "name": "Budgety",
         "image": "https://res.cloudinary.com/dfauupezh/image/upload/v1609947758/teemu-paananen-bzdhc5b3Bxs-unsplash_bymcxr.jpg",
         "description": "a app that keep track of your monthly income and expense",
+        "price": "$30",
+        "category": "music",
         "link": "https://solyakin.github.io/budgety/"
     }
 ]

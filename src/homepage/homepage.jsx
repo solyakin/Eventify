@@ -1,16 +1,20 @@
 import React from 'react';
-import Header from '../component/header/header';
+import Benefits from '../component/benefits/benefits';
+import Hangout from '../component/hangout/hangout';
 import LandingPage from '../component/landingpage/landingPage';
 import UpcomingEvent from '../component/upcomingevent/upcomingevent';
 import Users from '../component/users/user';
+import Footer from '../component/footer/footer';
 
 const Homepage = () => {
     return(
         <div className="homepage">
-            <Header/>
             <LandingPage/>
             <Users/>
+            <Hangout/>
+            <Benefits/>
             <UpcomingEvent/>
+            <Footer/>
         </div>
     )
 }

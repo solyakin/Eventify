@@ -1,15 +1,15 @@
 import React from 'react';
 import '../users/user.css';
-import conference from '../assets/conference.jpg';
-import music from '../assets/music.jpg';
-import social from '../assets/social.jpg';
+import conference from '../assets/Conference.svg';
+import music from '../assets/Music.svg';
+import social from '../assets/hangouts.svg';
 
 const Users = () => {
     return(
         <div className="users">
             <div className="user-container">
                 <h1>A tool for Everyone</h1>
-                <p>Eventty was designed with you in mind</p>
+                <p>Eventify was designed with you in mind</p>
 
                 {/* <div className="host">
                     <h1>Host</h1>

@@ -1,0 +1,35 @@
+.upcoming-event{
+    margin-left: 70px;
+    height: 100vh;
+    position: initial;
+    margin-top: 30px;
+}
+.fa-calendar{
+    color:  #458ff6;
+    width: 25px;
+    margin-right: 10px;
+}
+.swiper-slide img{
+    height: 369px;
+}
+.event-details{
+    display: flex;
+    justify-content: space-between;
+    width: 571px;
+}
+.swiper-slide p, .swiper-slide span{
+    font-weight: 500;
+    /* margin-bottom: 5px; */
+}
+.swiper-slide span{
+    font-size: 18px;
+    color: goldenrod;
+}
+.view-all-link{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.swiper-slide .fa-file{
+    color: goldenrod;
+    margin-right: 10px;
+}

@@ -6,7 +6,7 @@ const Header = () =>{
     return(
     <div className="header">
          <Navbar sticky="top" bg="light" variant="light">
-            <Navbar.Brand href="#home">EVENTTY</Navbar.Brand>
+            <Navbar.Brand href="#home">EVENTIFY</Navbar.Brand>
             <Nav className="mr-auto">
                 <Nav.Link href="#home">Home</Nav.Link>
                 <Nav.Link href="#features">Features</Nav.Link>
